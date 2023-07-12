@@ -104,7 +104,11 @@ function onNewMessage() {
 function main() {
 	// Run on start
 	console.log("Bot Started.");
-	sendMessage("I am OkBot! Type /help for a list of commands.");
+	sendMessage("I am CowBot and I moo a lot");
+	for (var i=0; i<Infinity; i++) {
+	await delay(1000);
+	sendMessage("Moo");
+	}
 }
 
 function startBot() {
