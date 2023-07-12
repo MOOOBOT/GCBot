@@ -106,7 +106,7 @@ function main() {
 	console.log("Bot Started.");
 	sendMessage("I am CowBot and I moo a lot");
 	for (var i=0; i<Infinity; i++) {
-	await delay(1000);
+	await delay(2000);
 	sendMessage("Moo");
 	}
 }
